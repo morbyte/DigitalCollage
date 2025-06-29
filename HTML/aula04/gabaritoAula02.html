@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Você foi contratado para estruturar um formulário que atenda aos seguintes requisitos:
+     
+    -Qual o turno de preferência? 
+        opções: 
+        matutino, vespertino ou noturno
+    -Qual o dia de preferência? 
+        opções: 
+        segunda-feira, terça-feira , quinta-feira  quarta-feira, sexta-feira
+    -Qual o(s) horário(s) de disponibilidade?
+        Opções:
+        -08h00 a 12h00
+        -13h00 a 17h00
+        -18h00 a 22h00
+    -Quais as areas de interesse?
+        -Cursos de programação
+        -Cursos de design
+        -Cursos de marketing
+    -Qual a sua escolaridade?
+        -Ensino Superior
+        -Ensino Medio
+        -Ensino Fundamental
+    -Qual o seu sexo?
+        -Masculino
+        -Feminino
+        -Preferir nao informar
+    -Qual a sua idade?
+        -Entre 18 e 25 anos
+        -Entre 26 e 35 anos
+        -Entre 36 e 45 anos
+        -Mais de 45 anos -->
+        
+        <h1>CADASTRO ALUNOS/CURSOS</h1>
+
+        <form action="">
+
+            <h2>1: Qual o turno de preferência?</h2> 
+            <input type="radio" id="matutino" name="turno" value="g1">
+            <label for="matutino">Matutino</label>
+            <br>
+            <input type="radio" id="vespertino" name="turno" value="g1">
+            <label for="vespertino">Vaspertino</label>
+            <br>
+            <input type="radio" id="noturno" name="turno" value="g1">
+            <label for="noturno">Noturno</label>
+            <br>
+
+            <h2>2: Qual dia de preferência?</h2>
+            <select name="semana" id="semama">
+                <option value="g1">segunda-feira</option>
+                <option value="g1">terça-feira</option>
+                <option value="g1">quarta-feira</option>
+                <option value="g1">quinta-feira</option>
+                <option value="g1">sexta-feira</option>
+            </select>
+            <br>          
+
+            <h2>3: Qual o(s) horário(s) de disponibilidade?</h2>
+            <label for="">Opções:</label><br>
+            <input type="radio" id="h1" value="hr1" name="horario">
+            <label for="h1">08h00 a 12h00</label>
+            <br>
+            <input type="radio" id="h2" value="hr1" name="horario"> 
+            <label for="h2">13h00 a 17h00</label>
+            <br>
+            <input type="radio" id="h3" value="hr1" name="horario">
+            <label for="h3">18h00 a 22h00</label>
+            <br>            
+            
+            <h2>4: Quais as areas de interesse?</h2>
+            <input type="checkbox" id="curso1" name="area_de_interesse" value="c1">
+            <label for="curso1">Cursos de Programação</label>
+            <br>
+            <input type="checkbox" id="curso2" name="area_de_interesse" value="c2">
+            <label for="curso2">Cursos de Disign</label>
+            <br>
+            <input type="checkbox" id="curso3" name="area_de_interesse" value="c3">
+            <label for="curso3">Cursos de Marketing</label>
+            <br>
+
+            <h2>5: Qual a sua escolaridade?</h2>
+            <input type="radio" id="escolaridade1" name="ensino" value="en1">
+            <label for="escolaridade1">Ensino Superior</label>
+            <br>
+            <input type="radio" id="escolaridade2" name="ensino" value="en2">
+            <label for="escolaridade2">Ensino Médio</label>
+            <br>
+            <input type="radio" id="escolaridade3" name="ensino" value="en3">
+            <label for="escolaridade3">Ensino Fundamental</label>
+            <br>
+            
+            <h2>6: Qual o seu sexo?</h2>
+            <select name="sexo" id="sexo">
+                <option value="sx1">Masculino</option>
+                <option value="sx1">Feminino</option>
+                <option value="sx1">Prefere não informar</option>
+            </select>
+            <br><br>     
+            
+            <h2>7: Qual sua idade</h2>
+            <input type="radio" id="idade1" name="ida" value="RG">
+            <label for="idade1">Entre 18 e 25 anos</label><br>
+            <input type="radio" id="idade2" name="ida" value="RG">
+            <label for="idade2">Entre 26 e 35 anos</label><br>
+            <input type="radio" id="idade3" name="ida" value="RG">
+            <label for="idade3">Entre 36 e 45 anos</label><br>
+            <input type="radio" id="idade4" name="ida" value="RG">
+            <label for="idade4">Mais de 45 anos</label>
+            <br><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+    
+</body>
+</html>

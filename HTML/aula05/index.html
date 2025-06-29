@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<body>
+
+    <style>
+        table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+    </style>
+
+    <h1>Tabelas</h1>
+
+    <table>
+        <!-- 3 linhas e cada linha tenha 4 colunas -->
+
+        <!-- primeira linha -->
+        <tr>
+            <!-- primeira linha terá os cabeçalhos / títulos / legendas -->
+             <th>Título Coluna1</th>
+             <th>Título Coluna2</th>
+             <th>Título Coluna3</th>
+             <th>Título Coluna4</th>
+
+        </tr>
+        <!-- segunda linha -->
+        <tr>
+            <td>linha2 Coluna1</td>
+            <td>linha2 Coluna3</td>
+            <td>linha2 Coluna5</td>
+        </tr>
+        <!-- terceira linha -->
+        <tr>
+            <td>linha3 Coluna1</td>
+            <td>linha3 Coluna2</td>
+            <td>linha3 Coluna3</td>
+            <td>linha3 Coluna4</td>
+        </tr>
+
+    <br>
+    </table>
+
+        <table>
+        <!-- 3 linhas e cada linha tenha 4 colunas -->
+
+        <!-- primeira linha -->
+        <tr>
+            <!-- primeira linha terá os cabeçalhos / títulos / legendas -->
+             <th>codigo</th>
+             <th>nome</th>
+             <th>preço</th>
+             <th>quantidade</th>
+
+        </tr>
+        <!-- segunda linha -->
+        <tr>
+            <td>001</td>
+            <td>Macarrao</td>
+            <td>R$ 12,50</td>
+            <td>10</td>
+        </tr>
+        <!-- terceira linha -->
+        <tr>
+            <td>002</td>
+            <td>Banana</td>
+            <td>R$ 5,90</td>
+            <td>10</td>
+        </tr>
+
+
+    </table>
+
+    <h2>Colunas com células "mescladas"</h2>
+
+    <h3>Mesclagem no sentido da coluna</h3>
+
+    <table>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Endereço</th>
+        </tr>
+        <tr>
+            <td colspan="2">João</td>
+            <td>Recife</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>30</td>
+            <td>Recife</td>
+        </tr>
+    </table>
+
+    <h3>Mesclagem no sentido da linha</h3>
+    <table>
+        <tr>
+            <th rowspan="2">Aluno</th>
+            <th colspan="2">turmas</th>            
+        </tr>
+        <tr>
+
+            <th>Manhã</th>
+            <th>Tarde</th>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>A</td>
+            <td>D</td>
+        </tr>
+        <tr>
+            <td>Joao</td>
+            <td>B</td>
+            <td>A</td>
+        </tr>
+    </table>
+
+    
+</body>
+</html>
