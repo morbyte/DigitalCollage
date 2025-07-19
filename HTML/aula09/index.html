@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-
     <title>RS-Burger</title>
   </head>
 
@@ -21,6 +20,7 @@
             <li><a href="#burguer">Hamburgueres</a></li>
             <li><a href="#acompanhamentos">Acompanhamentos</a></li>
             <li><a href="#bebidas">Bebidas</a></li>
+            <li><a href="#bebidas">Contato</a></li>
           </ul>
         </nav>
       </div>
@@ -30,99 +30,147 @@
       <h1>CARDÁPIO DIGITAL</h1>
 
       <section>
-        <h2>Hambúrgueres</h2>
-        <div class="boxProduto">
-          <div class="boxImg">
-            <img src="materialCardapio/imagens/burger01.png" />
+        <h2 id="burguer">Hambúrgueres</h2>
+
+        <div class="Produto-container">
+          <div class="boxProduto">
+            <div class="boxImg">
+              <img src="materialCardapio/imagens/burger01.png" />
+            </div>
+            <div class="boxTexto">
+              <h3>
+                Clássico Angus Burger <br />
+                <span class="preço">R$22,50</span>
+              </h3>
+              <p>
+                Delicie-se com o nosso Hambúrguer Clássico, feito com um
+                suculento hambúrguer de carne angus, queijo derretido, alface
+                crocante, tomate fresco e um toque especial do nosso molho
+                secreto. Perfeito para saciar sua fome!
+              </p>
+              <button class="btn">Pedir</button>
+            </div>
           </div>
-          <div class="boxTexto">
-            <h3>Clássico Angus Burger - R$22,50</h3>
-            <p>
-              Delicie-se com o nosso Hambúrguer Clássico, feito com um suculento
-              hambúrguer de carne angus, queijo derretido, alface crocante,
-              tomate fresco e um toque especial do nosso molho secreto. Perfeito
-              para saciar sua fome!
-            </p>
-            <button class="btn">Pedir</button>
+
+          <div class="boxProduto">
+            <div class="boxImg">
+              <img src="materialCardapio/imagens/burger02.png" />
+            </div>
+            <div class="boxTexto">
+              <h3>
+                Gourmet Burger <br />
+                <span class="preço">R$35,00</span>
+              </h3>
+              <p>
+                O nosso Hambúrguer Gourmet, preparado com um suculento
+                hambúrguer de carne nobre, queijo derretido, cebola caramelizada
+                e baccon. Uma escolha irresistível!
+              </p>
+              <button class="btn">Pedir</button>
+            </div>
+          </div>
+
+          <div class="boxProduto">
+            <div class="boxImg">
+              <img src="materialCardapio/imagens/burger03.png" />
+            </div>
+            <div class="boxTexto">
+              <h3>
+                Defumado BBQ Burger <br />
+                <span class="preço">R$29,00</span>
+              </h3>
+              <p>
+                Deixe-se envolver pelo sabor defumado do nosso Hambúrguer BBQ,
+                uma deliciosa combinação de hambúrguer de carne suculenta,
+                queijo cheddar derretido, cebola caramelizada e salada verde.
+              </p>
+              <button class="btn">Pedir</button>
+            </div>
           </div>
         </div>
-        <div class="boxProduto">
-          <div class="boxImg">
-            <img src="materialCardapio/imagens/burger02.png" />
+      </section>
+
+      <h2 id="acompanhamentos">Acompanhamentos</h2>
+      <section>
+        <div class="Acompanhamento-container">
+          <div class="boxProdutoAcompanhamento">
+            <div class="boxImgAcompanhamento">
+              <img src="materialCardapio/imagens/acomp01.png" />
+            </div>
+            <div class="boxTextoAcompanhamento">
+              <h3>
+                Fritas <br />
+                <span class="preço">R$15,00</span>
+              </h3>
+              <p>
+                Nossas batatas fritas são o acompanhamento perfeito para
+                qualquer refeição! Cortadas em palitos e fritas até ficarem
+                douradas e crocantes por fora, e macias por dentro, elas são
+                irresistíveis em cada mordida.
+              </p>
+              <button class="btn">Pedir</button>
+            </div>
           </div>
-          <div class="boxTexto">
-            <h3>Gourmet Burger - R$35,00</h3>
-            <p>
-              O nosso Hambúrguer Gourmet, preparado com um suculento hambúrguer
-              de carne nobre, queijo derretido, cebola caramelizada e baccon.
-              Uma escolha irresistível!
-            </p>
-            <button class="btn">Pedir</button>
-          </div>
-        </div>
-        <div class="boxProduto">
-          <div class="boxImg">
-            <img src="materialCardapio/imagens/burger03.png" />
-          </div>
-          <div class="boxTexto">
-            <h3>Defumado BBQ Burger - R$29,00</h3>
-            <p>
-              Deixe-se envolver pelo sabor defumado do nosso Hambúrguer BBQ, uma
-              deliciosa combinação de hambúrguer de carne suculenta, queijo
-              cheddar derretido, cebola caramelizada e salada verde.
-            </p>
-            <button class="btn">Pedir</button>
+
+          <div class="boxProdutoAcompanhamento">
+            <div class="boxImgAcompanhamento">
+              <img src="materialCardapio/imagens/acomp03.png" />
+            </div>
+            <div class="boxTextoAcompanhamento">
+              <h3>
+                Coxinha <br />
+                <span class="preço">R$20,00</span>
+              </h3>
+              <p>
+                Nossas coxinhas são o acompanhamento perfeito para qualquer
+                refeição! Recheio com (carne do sol, frango ou camarão), 3
+                queijos, catupuri com creme ricota, são douradas e crocantes por
+                fora, e macias por dentro, elas são irresistíveis em cada
+                mordida.
+              </p>
+              <button class="btn">Pedir</button>
+            </div>
           </div>
         </div>
       </section>
 
       <section>
-        <h2>Acompanhamentos</h2>
-        <div class="boxProduto">
-          <div class="boxImg">
-            <img src="materialCardapio/imagens/acomp01.png" />
+        <h2 id="bebidas">Bebidas</h2>
+        <div class="Acompanhamento-container">
+          <div class="boxProdutoAcompanhamento">
+            <div class="boxImgAcompanhamento">
+              <img src="materialCardapio/imagens/bebida01.png" />
+            </div>
+            <div class="boxTextoAcompanhamento">
+              <h3>
+                Coca-Cola <br />
+                <span class="preço">R$5,00</span>
+              </h3>
+              <p>
+                Refresque-se com a clássica Coca-Cola gelada, uma bebida que
+                encanta paladares há décadas. Com seu sabor único e
+                inconfundível para acompanhar seu hambúrguer ou batatas fritas.
+              </p>
+              <button class="btn">Pedir</button>
+            </div>
           </div>
-          <div class="boxTexto">
-            <h3>Fritas - R$15,00</h3>
-            <p>
-              Nossas batatas fritas são o acompanhamento perfeito para qualquer
-              refeição! Cortadas em palitos e fritas até ficarem douradas e
-              crocantes por fora, e macias por dentro, elas são irresistíveis em
-              cada mordida.
-            </p>
-            <button class="btn">Pedir</button>
-          </div>
-        </div>
-      </section>
 
-      <section>
-        <h2>BEBIDAS</h2>
-        <div class="boxProduto">
-          <div class="boxImg boxBebida">
-            <img src="materialCardapio/imagens/bebida01.png" />
-          </div>
-          <div class="boxTexto boxBebida">
-            <h3>Coca-Cola - R$5,00</h3>
-            <p>
-              Refresque-se com a clássica Coca-Cola gelada, uma bebida que
-              encanta paladares há décadas. Com seu sabor único e inconfundível
-              para acompanhar seu hambúrguer ou batatas fritas.
-            </p>
-            <button class="btn">Pedir</button>
-          </div>
-        </div>
-        <div class="boxProduto">
-          <div class="boxImg">
-            <img src="materialCardapio/imagens/bebida02.png" />
-          </div>
-          <div class="boxTexto">
-            <h3>Sprite - R$5,00</h3>
-            <p>
-              Revitalize seus sentidos com a refrescante Sprite, uma bebida
-              cítrica e efervescente que desperta os sentidos e eleva o seu
-              ânimo para acompanhar seu hambúrguer ou batatas fritas.
-            </p>
-            <button class="btn">Pedir</button>
+          <div class="boxProdutoAcompanhamento">
+            <div class="boxImgAcompanhamento">
+              <img src="materialCardapio/imagens/bebida02.png" />
+            </div>
+            <div class="boxTextoAcompanhamento">
+              <h3>
+                Sprite <br />
+                <span class="preço">R$5,00</span>
+              </h3>
+              <p>
+                Revitalize seus sentidos com a refrescante Sprite, uma bebida
+                cítrica e efervescente que desperta os sentidos e eleva o seu
+                ânimo para acompanhar seu hambúrguer ou batatas fritas.
+              </p>
+              <button class="btn">Pedir</button>
+            </div>
           </div>
         </div>
       </section>
@@ -134,13 +182,19 @@
         <p>Desenvolvido por : Káthia Rocha</p>
       </div>
 
-      <div>
+      <div class="redesSociais">
         <h5>Redes Sociais</h5>
-        <div>
+        <div class="iconFooter">
           <!-- serão substituídos pelos icones, na aula de bibliotecas de css -->
-          <a href="#"> Insta </a>
-          <a href="#"> Youtube </a>
-          <a href="#"> Spotify </a>
+          <a href="#">
+            <img src="materialCardapio/imagens/instagram.png" alt="" />
+          </a>
+          <a href="#">
+            <img src="materialCardapio/imagens/spotify.png" alt="" />
+          </a>
+          <a href="#">
+            <img src="materialCardapio/imagens/youtube.png" alt="" />
+          </a>
         </div>
       </div>
     </footer>
