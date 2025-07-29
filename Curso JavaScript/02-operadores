@@ -1,0 +1,8 @@
+let valor01 = 10;
+let valor02 = 30;
+//valor02 = 30;
+let somaValor = valor01 + valor02;
+console.log(valor01 + valor02);
+console.log(10 * valor01);
+console.log(somaValor);
+console.log(1000 / 10);
